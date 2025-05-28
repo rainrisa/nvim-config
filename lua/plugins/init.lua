@@ -6,6 +6,11 @@ return {
   },
 
   {
+    "github/copilot.vim",
+    lazy = false,
+  },
+
+  {
     "ray-x/go.nvim",
     dependencies = {  -- optional packages
       "ray-x/guihua.lua",
